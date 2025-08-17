@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focusly - Stay Focused with Pomodoro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-800 flex flex-col min-h-screen">
+    
+    <!-- Navbar -->
+    <header class="w-full py-6 px-6 flex justify-between items-center bg-white shadow-md fixed top-0 left-0 z-50">
+      <div class="text-2xl font-bold text-blue-600">Focusly</div>
+      <a href="#download" class="px-6 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition text-sm font-medium shadow-md">
+        Download
+      </a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-24 px-6 bg-blue-50">
+      <div class="max-w-7xl mx-auto grid lg:grid-cols-2 items-center gap-12">
+        <!-- Text -->
+        <div class="text-center lg:text-left">
+          <h1 class="text-4xl md:text-6xl font-extrabold text-blue-600 mb-6 leading-tight">
+            Stay Focused with Focusly
+          </h1>
+          <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
+            Your productivity companion using the proven Pomodoro technique.
+          </p>
+          <a href="#download"
+            class="px-8 py-4 text-lg font-medium rounded-2xl bg-blue-600 hover:bg-blue-700 transition text-white shadow-md inline-block">
+            Get Started Free
+          </a>
+        </div>
+        <!-- Mockup -->
+        <div class="flex justify-center lg:justify-end">
+          <img src="gambar1.png" alt="App Mockup"
+            class="w-64 md:w-80 lg:w-[28rem] shadow-2xl rounded-3xl" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-24 px-6 bg-white">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">
+        Main Features
+      </h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-6xl mx-auto">
+        <!-- Feature 1 -->
+        <div class="shadow-lg rounded-2xl p-8 text-center hover:scale-105 hover:shadow-xl transition duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-12 h-12 text-blue-600 mx-auto mb-4">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <h3 class="text-xl font-semibold text-blue-600 mb-3">Pomodoro Timer</h3>
+          <p class="text-gray-600">Boost focus with structured work sessions.</p>
+        </div>
+        <!-- Feature 2 -->
+        <div class="shadow-lg rounded-2xl p-8 text-center hover:scale-105 hover:shadow-xl transition duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-12 h-12 text-blue-600 mx-auto mb-4">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3 3v18h18M7 14l3 3 7-7" />
+          </svg>
+          <h3 class="text-xl font-semibold text-blue-600 mb-3">Productivity Stats</h3>
+          <p class="text-gray-600">Track and improve your daily progress.</p>
+        </div>
+        <!-- Feature 3 -->
+        <div class="shadow-lg rounded-2xl p-8 text-center hover:scale-105 hover:shadow-xl transition duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-12 h-12 text-blue-600 mx-auto mb-4">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M9 19V6l12-2v13M9 19a2 2 0 11-4 0 2 2 0 014 0zm12-2a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+          <h3 class="text-xl font-semibold text-blue-600 mb-3">Focus Music</h3>
+          <p class="text-gray-600">Stay in the zone with curated sounds.</p>
+        </div>
+        <!-- Feature 4 -->
+        <div class="shadow-lg rounded-2xl p-8 text-center hover:scale-105 hover:shadow-xl transition duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-12 h-12 text-blue-600 mx-auto mb-4">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3 15a4 4 0 014-4h.5a5.5 5.5 0 1110.9 1.5H19a3 3 0 110 6H7a4 4 0 01-4-4z" />
+          </svg>
+          <h3 class="text-xl font-semibold text-blue-600 mb-3">Cloud Sync</h3>
+          <p class="text-gray-600">Access your data anywhere, anytime.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-24 px-6 bg-blue-50">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">
+        How It Works
+      </h2>
+      <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto text-center">
+        <div class="p-6">
+          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-blue-600 text-white mx-auto mb-4 text-xl font-bold">1</div>
+          <h3 class="font-semibold text-lg mb-2">Set Your Timer</h3>
+          <p class="text-gray-600">Choose your Pomodoro duration and break length.</p>
+        </div>
+        <div class="p-6">
+          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-blue-600 text-white mx-auto mb-4 text-xl font-bold">2</div>
+          <h3 class="font-semibold text-lg mb-2">Stay Focused</h3>
+          <p class="text-gray-600">Work deeply with zero distractions.</p>
+        </div>
+        <div class="p-6">
+          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-blue-600 text-white mx-auto mb-4 text-xl font-bold">3</div>
+          <h3 class="font-semibold text-lg mb-2">Review Progress</h3>
+          <p class="text-gray-600">Check stats and keep improving daily.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section class="py-24 px-6 bg-white">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">App Screenshots</h2>
+      <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <img src="screenshot1.png" alt="Screenshot 1" class="rounded-2xl shadow-lg" />
+        <img src="screenshot2.png" alt="Screenshot 2" class="rounded-2xl shadow-lg" />
+        <img src="screenshot3.png" alt="Screenshot 3" class="rounded-2xl shadow-lg" />
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="py-24 px-6 bg-blue-50">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">Pricing</h2>
+      <div class="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+        <div class="shadow-xl rounded-2xl p-8 bg-white text-center">
+          <h3 class="text-2xl font-bold text-blue-600 mb-4">Free Plan</h3>
+          <p class="text-gray-600 mb-6">Basic features for students & beginners.</p>
+          <p class="text-4xl font-extrabold mb-6">Free</p>
+          <a href="#" class="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition">Start Free</a>
+        </div>
+        <div class="shadow-xl rounded-2xl p-8 bg-white text-center border-2 border-blue-600">
+          <h3 class="text-2xl font-bold text-blue-600 mb-4">Pro Plan</h3>
+          <p class="text-gray-600 mb-6">Unlock all features & sync unlimited devices.</p>
+          <p class="text-4xl font-extrabold mb-6">$5<span class="text-lg text-gray-600">/mo</span></p>
+          <a href="#" class="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition">Upgrade Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-24 px-6 bg-white">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">What Users Say</h2>
+      <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+        <div class="shadow-lg rounded-2xl bg-blue-50 p-8 hover:shadow-xl transition">
+          <p class="text-gray-700 mb-6">“Focusly helped me finish assignments twice as fast!”</p>
+          <span class="font-semibold text-blue-600">— Sarah M.</span>
+        </div>
+        <div class="shadow-lg rounded-2xl bg-blue-50 p-8 hover:shadow-xl transition">
+          <p class="text-gray-700 mb-6">“The focus music mode keeps me in deep work flow.”</p>
+          <span class="font-semibold text-blue-600">— James P.</span>
+        </div>
+        <div class="shadow-lg rounded-2xl bg-blue-50 p-8 hover:shadow-xl transition">
+          <p class="text-gray-700 mb-6">“Tracking my productivity made me more disciplined.”</p>
+          <span class="font-semibold text-blue-600">— Alicia R.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-24 px-6 bg-blue-50">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">FAQ</h2>
+      <div class="max-w-3xl mx-auto space-y-6">
+        <div class="bg-white p-6 rounded-xl shadow-md">
+          <h3 class="font-semibold text-lg mb-2">Is Focusly free to use?</h3>
+          <p class="text-gray-600">Yes, the basic plan is completely free forever.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md">
+          <h3 class="font-semibold text-lg mb-2">Does it work on all devices?</h3>
+          <p class="text-gray-600">Yes, Focusly syncs across mobile, tablet, and desktop.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md">
+          <h3 class="font-semibold text-lg mb-2">Can I use Focusly offline?</h3>
+          <p class="text-gray-600">Yes, timers and focus sessions work offline. Data syncs when online again.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section id="download" class="py-24 px-6 text-center bg-white">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-8">Ready to stay focused?</h2>
+      <a href="#" class="px-8 py-4 text-lg font-medium rounded-2xl bg-blue-600 hover:bg-blue-700 transition text-white shadow-md">
+        Download Focusly Now
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 bg-blue-600 text-white text-center">
+      <div class="flex justify-center gap-8 mb-6">
+        <a href="#" class="flex items-center gap-2 hover:underline">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8 19c11 0 17-9.33 17-17.39 0-.26 0-.52-.02-.78A12.32 12.32 0 0028 0a12.4 12.4 0 01-3.54.98A6.18 6.18 0 0027.3.36a12.28 12.28 0 01-3.91 1.5A6.15 6.15 0 0013.86 6a17.44 17.44 0 01-12.67-6.42A6.12 6.12 0 004 8.2a6.07 6.07 0 01-2.8-.78v.08a6.15 6.15 0 004.94 6.02 6.2 6.2 0 01-2.77.1 6.17 6.17 0 005.74 4.28A12.34 12.34 0 010 21.54 17.4 17.4 0 009.4 24" />
+          </svg>
+          Twitter
+        </a>
+        <a href="#" class="flex items-center gap-2 hover:underline">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M7.5 2h9A5.5 5.5 0 0122 7.5v9A5.5 5.5 0 0116.5 22h-9A5.5 5.5 0 012 16.5v-9A5.5 5.5 0 017.5 2zm4.5 5a5 5 0 100 10 5 5 0 000-10zm6-1a1.5 1.5 0 11-3.001.001A1.5 1.5 0 0118 6z" />
+          </svg>
+          Instagram
+        </a>
+        <a href="#" class="flex items-center gap-2 hover:underline">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M4 4a2 2 0 012-2h12a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm5.56 5.5H7v9h2.56v-9zM8.28 7.7a1.28 1.28 0 100-2.56 1.28 1.28 0 000 2.56zm7.72 1.8c-1.23 0-2.18.96-2.18 2.18V18.5h2.56v-4.33c0-.93.76-1.69 1.69-1.69s1.69.76 1.69 1.69V18.5H22v-5.1c0-2.2-1.8-4-4-4z" />
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+      <p class="text-sm opacity-90">© 2025 Focusly. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
